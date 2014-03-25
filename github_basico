@@ -1,0 +1,211 @@
+
+===================================================
+
+				PRESENTACIÓN GITHUB
+
+===================================================
+
+
+1 - Qué es Github?
+
+2 - Dónde está?
+
+3 - Crear una cuenta y descargar la aplicación
+
+4 - Repositorios
+
+5 - Crear un repositorio y hacer fork en otro
+
+6 - Clonar repositorios
+
+7 - Commit and push
+
+8 - Pull Request
+
+9 - "Echar la culpa"
+
+10 - puede sustituir a ftp
+
+--------------------------------
+
+
+¿Qué es GitHub? un SISTEMA DE CONTROL DE VERSIONES que permite tener una copia local de los archivos que tenemos en GitHub.com, basado en GIT. Es una web app que consolida el sistema de control de versiones, es como una red social de programadores, mucho más fácil de usar que GIT.
+
+Uno de los primeros principales problemas de la gente que está en el diseño web , tanto programadores como diseñadores, manejan mucho código y siguen estando en el pasado, en los tiempos de versión1, version2, versión1-a, versión def., def-2....vaya lio!, pro no solo los fl, también algunas empresas usan esta mala práctica. 
+
+GH: sistema atómico de versiones.
+
+Cvs, mercurial o subversion son otros sistemas de versiones.
+
+Github partió de Linux.
+
+Sustituye subir código x ftp.
+
+Permite trabajar a muchas personas trabajar simultáneamente sobre un mismo proyecto. Estos cambios se fusionan en el proyecto y así se va actualizando. Se pueden crear Branches además para distintos equipos..., respetando generalmente el Máster.
+
+
+Git es el tipo de control de versiones.
+
+Github es una comunidad, de las más populares.
+
+Se hacen cambios en los proyectos, se pueden compartir y también sirve como copia de seguridad.
+
+Websites sobre GIT: gitimmersion.com
+
+Como diseñadores: http://hoth.entp.com/output/git_for_designers.html
+
+
+Otros sistemas de control de versiones:
+=======================================
+
+git.tower.com = para mac, de pago, período de prueba.
+
+gitbox = para mac.
+
+tortoise = windows.
+
+smartgib
+
+Github: se pueden ver los repos más interesantes y popualares, los más duplicados: Bootstrap, Boilerplate, Nodejs, Jquery, Jqery UI.
+
+Opción EXPLORE --> Trending: actualidad, repos más forckeados.
+
+GITHUB hace la vida más fácil y nos hace más felices.
+
+Es una importante PLATAFORMA DE DISTRIBUCIÓN DE SOFTWARE LIBRE.
+
+No sólo código, también proyectos colaborativos.
+
+Documentación de apis, ej: Basecamp APIS.
+
+---------------------------
+
+LA PRÁCTICA:
+
+La Teoría no es tan divertido como la práctica:
+
+Se crean Backups de los archivos = seguridad
+
+1 - Crear cuenta: github.com --> Log in
+
+2 - Descargar app, instalar
+
+En Github.com:
+--------------
+
+Creo un nuevo respositorio 
+
+Crear archivo Read.me
+
+Conectar con el laptop:
+
+	1 - Ir a la terminal
+
+	2 - Descargar app --> Descargamos la app
+
+	3 - Creamos Clon en local
+
+	4 - Trabajamos en local y hacemos commit + push
+
+	5 - Archivo en Github.com se actualiza tras el push
+
+
+Traer un repo a nuestro laptop:
+
+- Download zip
+
+- Clone in Desktop: Escogemos directerio destino en nuestro laptop: ya tenemos el repo en local y podemos comenzar a hacer los push que queramos para que se 
+
+
+USOS GITHUB:
+
+1 - Bajarnos proyectos: Clone
+
+2 - Ser parte de un proyecto
+
+3 - Sustituir ftp a través de un repositorio. Son dos cosas diferentes pero se está usando github en lugar de ftp. ( consultar con el hosting )
+
+4 - Branches: Máster, rama principal
+
+
+Commits: Se tiene acceso a los commits o cambios hechos en el Branch.
+
+Si alguien comete un error todo es trakeable.
+
+Branches:
+---------
+Principal: Máster
+------------------
+
+ej: Probar una nueva funcionalidad: Hacer un Branch, que es otra versión del archivo Máster.
+
+network graph: personas en el proyecto, colaboradores, branches...
+
+Los Commits se pueden comentar.
+
+view: haces seguimiento del repo.
+
+Podemos ser parte de un proyecto: Ejemplo: BOILERPLATE
+
+El código se puede descargar y colaborar "indirectamente" --> Fork
+
+Guist
+------
+
+Gists are snippets of code. They can be entire applications, or they can just involve a single file. Best of all, every gist is a git repository, which means that they can be forked, cloned, and manipulated in every way.
+
+PULL REQUEST:
+------------- 
+
+Con un pull request lo que hacemos es tras hacer un cambio en uno de los branches, solicitamos al autor o "dueño" del repositorio que incluya el cambio que hemos propuesto ( de ahí la expresión "request" ) ,si es aceptado, el creador del repo original o Máster lo "mergea", es decir lo fusiona, acepta el pull request dándole a MERGE.
+
+MERGE
+-----
+
+Cuando el Pull request es aceptado se hace Merge y el cambio propuesto se FUSIONA al proyecto y queda incorporado.
+
+BRANCHE
+--------
+
+Por qué Ramas?
+
+Github es más que subir bajar, bajar, subir...
+
+Imaginad un equipo enorme de 100 personas, el trabajo se podría dividir en Ramas.
+
+Si el proyecto tiene un montón de cambios en todas sus ramas, se puden unir o fusionar al proyecto o rama Máster a través de MERGE.
+
+Entonces:
+
+Repo --> Commit --> Pull Request --> Merge/No mege --> Se cierra el pull request.--> Master incorpora los cambios en las ramas.
+-------------------------------------------------------------------------
+
+La app existe para mac y para win, pero se puede hacer todo esto desde terminal.
+
+Se puede instalar git en el servidor y crear un repositorio en el servidor. ESto es mejor desde terminal o consola. Crear un repositorio y conectar remotamente a Github. Cada vez que haga un commit, el servidor agarra las últimas actualizaciones del repositorio.
+
+
+Como conecto un repo con el Server?
+-----------------------------------
+
+Instalar Git en el Servidor
+
+Crear un repo en el Servidor
+
+Ir a la consola, crear un repo y conectar remotamente al server en lugar de al laptop
+
+Cada vez que haga un commit, este irá al Servidor y se acutalizará
+
+Pasos:
+
+- En Github.com ir a Settings webhooks & Services
+
+- Editar
+
+WIN: buscar github for windows
+------------------------------
+
+
+Commit and Sync: Github se encarga de todo.
+
+
